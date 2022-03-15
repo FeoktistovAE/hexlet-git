@@ -1,2 +1,1 @@
-Huskel Curry
-new
+Huskell Curry
