@@ -7,4 +7,5 @@ jobs:
                         - name: make-helloworld
                           run: 
                                 pip install poetry
+                                pwd
                                 make say-hello
