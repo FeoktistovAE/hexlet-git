@@ -6,6 +6,4 @@ jobs:
     steps:
     - name: make-helloworld
       run:
-          pip install poetry
-          make install
-          make say-hello
+          echo 'Hello'
