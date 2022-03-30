@@ -1,10 +1,10 @@
 name: hello-world
 on: push
 jobs:
-        build:
-                runs-on: ubuntu-latest
-                steps:
-                        - name: make-helloworld
-                          run:
-                              pip install poetry
-                              make say-hello
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: make-helloworld
+      run:
+          pip install poetry
+          make say-hello
