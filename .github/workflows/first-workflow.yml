@@ -5,7 +5,5 @@ jobs:
                 runs-on: ubuntu-latest
                 steps:
                         - name: make-helloworld
-                          run: 
-                                pip install poetry
-                                pwd
-                                make say-hello
+                          run: pip install poetry
+                               make say-hello
